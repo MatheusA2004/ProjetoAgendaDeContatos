@@ -42,7 +42,7 @@ class ContatosRepository {
     }
 
     delete(id) {
-        const sql = "DELETE FROM bdcontatos.bdcontatos WHERE id=?;";
+        const sql = "DELETE FROM dbagendacontatos.bdcontatos WHERE id=?;";
         return this.executaQuery(sql, id, 'Erro ao deletar contato');
     }
 }

@@ -1,6 +1,6 @@
 import app from "./app.js"
 
-const port = 3306
+const port = 3000
 
      app.listen(port, ()=>{
         console.log(`Servidor rodando http://localhost:${port}`)
